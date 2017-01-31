@@ -105,7 +105,7 @@ section.expander {
     border-width: 1px;
     border-style: solid;
     margin: 20px;
-    overflow: hidden;
+    overflow-y: hidden;
 }
 
 section.expander h1 {
