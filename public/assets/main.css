@@ -33,6 +33,7 @@ header #hamburger {
     line-height: 48px;
     border: none;
     cursor: pointer;
+    padding: 0;
 }
 
 header .title {
@@ -133,7 +134,7 @@ section.expander h3 {
     transform: rotate(90deg);
 }
 
-.default {
+.default-state {
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     transform: rotate(0deg);
