@@ -1,6 +1,6 @@
 >extend base
 
-+page-title = my representatives
++page-title = my reps
 
 +body =
     @main
