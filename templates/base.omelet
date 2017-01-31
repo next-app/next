@@ -1,0 +1,22 @@
+@doctype html
+@html
+    @head
+        @title Next | Find my representatives
+        @link[href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel=stylesheet]
+        @link[rel=stylesheet href="assets/main.css"]
+        @link[rel=stylesheet href="assets/font-awesome-4.2.0/css/font-awesome.min.css"]
+        @script[src="assets/compiled-templates.js"]
+        @script[src="assets/temporary-responses.js"]
+    @body
+        @header
+            @button#hamburger[title="expand navigation menu"] &#9776;
+            @div.title next | {page-title}
+
+            @nav.nav-bar.nav-collapsed
+                @a[href=index.html] home
+                @a[href=address.html] my address
+                @a[href=elections.html] my elections
+                @a[href=representatives.html] my representatives
+                @a[href=learn-more.html] learn more
+        {~body}
+        @script[src="assets/main.js"]

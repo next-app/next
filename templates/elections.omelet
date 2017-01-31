@@ -1,0 +1,7 @@
+>extend base
+
++page-title = my elections
+
++body =
+    @main
+        coming soon! (elections)

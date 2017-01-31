@@ -1,0 +1,11 @@
+>extend base
+
++page-title = stay informed
+
++body =
+    @main
+        @div.action-button-wrapper
+            @a.action-button[href="representatives.html"]
+                @span.icon.fa.fa-phone
+            @a.action-button[href="elections.html"]
+                @span.icon.fa.fa-check-circle

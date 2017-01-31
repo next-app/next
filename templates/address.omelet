@@ -1,0 +1,33 @@
+>extend base
+
++page-title = my address
+
++body =
+    @main
+        @p
+            Please enter the U.S. address at which you are registered
+            to vote below. It will be used to find your representatives
+            and determine the upcoming elections in which you can
+            vote.
+        @form#address-form
+            @div.full-line
+                @label[for="address-line1"] Street address (line 1)
+                @input#address-line1[type=text name=line1]
+            @div.full-line
+                @label[for="address-line2"] Street address (line 2)
+                @input#address-line2.full-width[type=text name=line2]
+            @div.full-line
+                @div.half-line
+                    @label[for="address-city"] City
+                    @input#address-city[type=text name=city]
+                @div.quarter-line
+                    @label[for="address-state"] State
+                    @select#address-state.quarter-width
+                        >for state in states
+                            @option[value={state}] {state}
+                @div.quarter-line
+                    @label.quarter-width[for="address-zip"] Zip code
+                    @input#address-zip.quarter-width[type=text name=zip]
+            @div.full-line
+                @button.address-button#clear-button[type="button"] clear
+                @button.address-button#save-button[type="button"] save

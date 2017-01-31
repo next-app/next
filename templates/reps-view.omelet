@@ -1,0 +1,49 @@
++render-official official =
+    @section.official
+        @div.official-details
+            @h3
+                {official.name}
+                >if official.party
+                    +party = {official.party | prepend " (" | append ")"}
+                    {party}
+            >if official.phones
+                @div.info-list
+                    @h4 phone numbers
+                    @ul
+                        >for phone in official.phones
+                            @li {phone}
+            >if official.emails
+                @div.info-list
+                    @h4 email addresses
+                    @ul
+                        >for email in official.emails
+                            @li|a[href={email | prepend "mailto:"}] {email}
+            >if official.links
+                @div.info-list
+                    @h4 links
+                    @ul
+                        >for link in official.links
+                            @li
+                                {link.type}:
+                                @a[href={link.url}] {link.url}
+
+@div.expanders-wrapper
+    >for division in divisions
+        @section.division.expander
+            @button.expander-header
+                @div.expander-header-left
+                    @div.expander-icon.default &#9654;
+                @div.expander-header-right
+                    @span.expander-type division - {division.type}
+                    @h1 {division.name}
+            @div.expander-content.collapsed
+                >for office in division.offices
+                    @section.office.expander
+                        @button.expander-header
+                            @div.expander-header-left
+                                @div.expander-icon.default &#9654;
+                            @div.expander-header-right
+                                @h2 {office.name}
+                        @div.expander-content.collapsed
+                            >for official in office.officials
+                                {render-official official}

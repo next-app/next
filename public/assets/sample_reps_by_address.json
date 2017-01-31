@@ -1,0 +1,990 @@
+{
+ "kind": "civicinfo#representativeInfoResponse",
+ "normalizedInput": {
+  "line1": "1530 Belmont Avenue",
+  "city": "Seattle",
+  "state": "WA",
+  "zip": "98122"
+ },
+ "divisions": {
+  "ocd-division/country:us/state:wa/county:king/council_district:8": {
+   "name": "King County WA County Council District 8",
+   "officeIndices": [
+    8
+   ]
+  },
+  "ocd-division/country:us": {
+   "name": "United States",
+   "officeIndices": [
+    0,
+    1
+   ]
+  },
+  "ocd-division/country:us/state:wa/county:king": {
+   "name": "King County",
+   "officeIndices": [
+    9,
+    10,
+    11,
+    12,
+    13
+   ]
+  },
+  "ocd-division/country:us/state:wa/cd:7": {
+   "name": "Washington's 7th congressional district",
+   "officeIndices": [
+    2
+   ]
+  },
+  "ocd-division/country:us/state:wa/place:seattle": {
+   "name": "Seattle city",
+   "officeIndices": [
+    14,
+    15,
+    16,
+    17
+   ]
+  },
+  "ocd-division/country:us/state:wa": {
+   "name": "Washington",
+   "officeIndices": [
+    3,
+    4,
+    5,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24
+   ]
+  },
+  "ocd-division/country:us/state:wa/sldu:43": {
+   "name": "Washington State Senate district 43",
+   "alsoKnownAs": [
+    "ocd-division/country:us/state:wa/sldl:43"
+   ],
+   "officeIndices": [
+    6,
+    7
+   ]
+  }
+ },
+ "offices": [
+  {
+   "name": "President of the United States",
+   "divisionId": "ocd-division/country:us",
+   "levels": [
+    "country"
+   ],
+   "roles": [
+    "headOfState",
+    "headOfGovernment"
+   ],
+   "officialIndices": [
+    0
+   ]
+  },
+  {
+   "name": "Vice-President of the United States",
+   "divisionId": "ocd-division/country:us",
+   "levels": [
+    "country"
+   ],
+   "roles": [
+    "deputyHeadOfGovernment"
+   ],
+   "officialIndices": [
+    1
+   ]
+  },
+  {
+   "name": "United States House of Representatives WA-07",
+   "divisionId": "ocd-division/country:us/state:wa/cd:7",
+   "levels": [
+    "country"
+   ],
+   "roles": [
+    "legislatorLowerBody"
+   ],
+   "officialIndices": [
+    2
+   ]
+  },
+  {
+   "name": "United States Senate",
+   "divisionId": "ocd-division/country:us/state:wa",
+   "levels": [
+    "country"
+   ],
+   "roles": [
+    "legislatorUpperBody"
+   ],
+   "officialIndices": [
+    3,
+    4
+   ]
+  },
+  {
+   "name": "Governor",
+   "divisionId": "ocd-division/country:us/state:wa",
+   "levels": [
+    "administrativeArea1"
+   ],
+   "roles": [
+    "headOfGovernment"
+   ],
+   "officialIndices": [
+    5
+   ]
+  },
+  {
+   "name": "Lieutenant Governor",
+   "divisionId": "ocd-division/country:us/state:wa",
+   "levels": [
+    "administrativeArea1"
+   ],
+   "roles": [
+    "deputyHeadOfGovernment"
+   ],
+   "officialIndices": [
+    6
+   ]
+  },
+  {
+   "name": "WA State House District 43",
+   "divisionId": "ocd-division/country:us/state:wa/sldu:43",
+   "levels": [
+    "administrativeArea1"
+   ],
+   "roles": [
+    "legislatorLowerBody"
+   ],
+   "officialIndices": [
+    7,
+    8
+   ]
+  },
+  {
+   "name": "WA State Senate District 43",
+   "divisionId": "ocd-division/country:us/state:wa/sldu:43",
+   "levels": [
+    "administrativeArea1"
+   ],
+   "roles": [
+    "legislatorUpperBody"
+   ],
+   "officialIndices": [
+    9
+   ]
+  },
+  {
+   "name": "County Council, District 8",
+   "divisionId": "ocd-division/country:us/state:wa/county:king/council_district:8",
+   "officialIndices": [
+    10
+   ]
+  },
+  {
+   "name": "Sheriff",
+   "divisionId": "ocd-division/country:us/state:wa/county:king",
+   "officialIndices": [
+    11
+   ]
+  },
+  {
+   "name": "Assessor",
+   "divisionId": "ocd-division/country:us/state:wa/county:king",
+   "officialIndices": [
+    12
+   ]
+  },
+  {
+   "name": "County Executive",
+   "divisionId": "ocd-division/country:us/state:wa/county:king",
+   "officialIndices": [
+    13
+   ]
+  },
+  {
+   "name": "Elections Director",
+   "divisionId": "ocd-division/country:us/state:wa/county:king",
+   "officialIndices": [
+    14
+   ]
+  },
+  {
+   "name": "Prosecuting Attorney",
+   "divisionId": "ocd-division/country:us/state:wa/county:king",
+   "officialIndices": [
+    15
+   ]
+  },
+  {
+   "name": "Mayor",
+   "divisionId": "ocd-division/country:us/state:wa/place:seattle",
+   "officialIndices": [
+    16
+   ]
+  },
+  {
+   "name": "Attorney",
+   "divisionId": "ocd-division/country:us/state:wa/place:seattle",
+   "officialIndices": [
+    17
+   ]
+  },
+  {
+   "name": "Council, Position 8",
+   "divisionId": "ocd-division/country:us/state:wa/place:seattle",
+   "officialIndices": [
+    18
+   ]
+  },
+  {
+   "name": "Council, Position 9",
+   "divisionId": "ocd-division/country:us/state:wa/place:seattle",
+   "officialIndices": [
+    19
+   ]
+  },
+  {
+   "name": "State Auditor",
+   "divisionId": "ocd-division/country:us/state:wa",
+   "officialIndices": [
+    20
+   ]
+  },
+  {
+   "name": "State Treasurer",
+   "divisionId": "ocd-division/country:us/state:wa",
+   "officialIndices": [
+    21
+   ]
+  },
+  {
+   "name": "Attorney General",
+   "divisionId": "ocd-division/country:us/state:wa",
+   "officialIndices": [
+    22
+   ]
+  },
+  {
+   "name": "Secretary of State",
+   "divisionId": "ocd-division/country:us/state:wa",
+   "officialIndices": [
+    23
+   ]
+  },
+  {
+   "name": "Insurance Commissioner",
+   "divisionId": "ocd-division/country:us/state:wa",
+   "officialIndices": [
+    24
+   ]
+  },
+  {
+   "name": "Commissioner of Public Lands",
+   "divisionId": "ocd-division/country:us/state:wa",
+   "officialIndices": [
+    25
+   ]
+  },
+  {
+   "name": "State Superintendent of Public Instruction",
+   "divisionId": "ocd-division/country:us/state:wa",
+   "officialIndices": [
+    26
+   ]
+  }
+ ],
+ "officials": [
+  {
+   "name": "Donald J. Trump",
+   "address": [
+    {
+     "line1": "The White House",
+     "line2": "1600 Pennsylvania Avenue NW",
+     "city": "Washington",
+     "state": "DC",
+     "zip": "20500"
+    }
+   ],
+   "party": "Republican",
+   "phones": [
+    "(202) 456-1111"
+   ],
+   "urls": [
+    "http://www.whitehouse.gov/"
+   ],
+   "channels": [
+    {
+     "type": "GooglePlus",
+     "id": "+whitehouse"
+    },
+    {
+     "type": "Facebook",
+     "id": "whitehouse"
+    },
+    {
+     "type": "Twitter",
+     "id": "whitehouse"
+    }
+   ]
+  },
+  {
+   "name": "Mike Pence",
+   "address": [
+    {
+     "line1": "The White House",
+     "line2": "1600 Pennsylvania Avenue NW",
+     "city": "Washington",
+     "state": "DC",
+     "zip": "20500"
+    }
+   ],
+   "party": "Republican",
+   "phones": [
+    "(202) 456-1111"
+   ],
+   "urls": [
+    "http://www.whitehouse.gov/"
+   ],
+   "channels": [
+    {
+     "type": "GooglePlus",
+     "id": "+whitehouse"
+    },
+    {
+     "type": "Facebook",
+     "id": "whitehouse"
+    },
+    {
+     "type": "Twitter",
+     "id": "whitehouse"
+    }
+   ]
+  },
+  {
+   "name": "Pramila Jayapal",
+   "address": [
+    {
+     "line1": "319 Cannon House Office Building",
+     "city": "Washington",
+     "state": "DC",
+     "zip": "20515"
+    }
+   ],
+   "party": "Democratic",
+   "phones": [
+    "(202) 225-3106",
+    "(206) 435-7033"
+   ],
+   "urls": [
+    "https://jayapal.house.gov/",
+    "http://www.pramilaforcongress.com/"
+   ],
+   "channels": [
+    {
+     "type": "YouTube",
+     "id": "UCMnbmouxS9x95erN4NlBjDw"
+    },
+    {
+     "type": "Twitter",
+     "id": "PramilaJayapal"
+    },
+    {
+     "type": "Facebook",
+     "id": "pramila.jayapal"
+    }
+   ]
+  },
+  {
+   "name": "Maria Cantwell",
+   "address": [
+    {
+     "line1": "311 Hart Senate Office Building",
+     "city": "Washington",
+     "state": "DC",
+     "zip": "20510"
+    }
+   ],
+   "party": "Democratic",
+   "phones": [
+    "(202) 224-3441"
+   ],
+   "urls": [
+    "http://cantwell.senate.gov/"
+   ],
+   "photoUrl": "http://bioguide.congress.gov/bioguide/photo/C/C000127.jpg",
+   "channels": [
+    {
+     "type": "Twitter",
+     "id": "CantwellPress"
+    },
+    {
+     "type": "Facebook",
+     "id": "senatorcantwell"
+    },
+    {
+     "type": "YouTube",
+     "id": "SenatorCantwell"
+    }
+   ]
+  },
+  {
+   "name": "Patty Murray",
+   "address": [
+    {
+     "line1": "154 Russell Senate Office Building",
+     "city": "Washington",
+     "state": "DC",
+     "zip": "20510"
+    }
+   ],
+   "party": "Democratic",
+   "phones": [
+    "(202) 224-2621"
+   ],
+   "urls": [
+    "http://www.murray.senate.gov/public/"
+   ],
+   "photoUrl": "http://murray.senate.gov/public//index.cfm?a=Files.Serve&File_id=56ed897b-3a8a-458b-bee5-559b6028a81f",
+   "channels": [
+    {
+     "type": "GooglePlus",
+     "id": "+pattymurray"
+    },
+    {
+     "type": "Twitter",
+     "id": "pattymurray"
+    },
+    {
+     "type": "YouTube",
+     "id": "SenatorPattyMurray"
+    },
+    {
+     "type": "Facebook",
+     "id": "pattymurray"
+    }
+   ]
+  },
+  {
+   "name": "Jay Inslee",
+   "address": [
+    {
+     "line1": "PO Box 40002",
+     "city": "Olympia",
+     "state": "WA",
+     "zip": "98504"
+    }
+   ],
+   "party": "Democratic",
+   "phones": [
+    "(360) 902-4111"
+   ],
+   "urls": [
+    "http://www.governor.wa.gov/"
+   ],
+   "photoUrl": "http://www.governor.wa.gov/sites/default/files/images/AboutJay.jpg",
+   "channels": [
+    {
+     "type": "Facebook",
+     "id": "WaStateGov"
+    },
+    {
+     "type": "Twitter",
+     "id": "jayinslee"
+    }
+   ]
+  },
+  {
+   "name": "Cyrus Habib",
+   "address": [
+    {
+     "line1": "PO Box 40400",
+     "city": "Olympia",
+     "state": "WA",
+     "zip": "98504"
+    }
+   ],
+   "party": "Democratic",
+   "phones": [
+    "(360) 786-7700"
+   ],
+   "channels": [
+    {
+     "type": "Facebook",
+     "id": "347384975292728"
+    },
+    {
+     "type": "Twitter",
+     "id": "cyrushabib"
+    }
+   ]
+  },
+  {
+   "name": "Frank Chopp",
+   "address": [
+    {
+     "line1": "PO BOX 40600",
+     "city": "Olympia",
+     "state": "WA",
+     "zip": "98504"
+    }
+   ],
+   "party": "Democratic",
+   "phones": [
+    "(360) 786-7920"
+   ],
+   "urls": [
+    "http://housedemocrats.wa.gov/legislators/Frank-Chopp/"
+   ],
+   "emails": [
+    "frank.chopp@leg.wa.gov"
+   ]
+  },
+  {
+   "name": "Nicole Macri",
+   "party": "Democratic"
+  },
+  {
+   "name": "Jamie Pedersen",
+   "address": [
+    {
+     "line1": "PO BOX 40443",
+     "city": "Olympia",
+     "state": "WA",
+     "zip": "98504"
+    }
+   ],
+   "party": "Democratic",
+   "phones": [
+    "(360) 786-7628"
+   ],
+   "urls": [
+    "http://sdc.wastateleg.org/Pedersen/"
+   ],
+   "emails": [
+    "jamie.pedersen@leg.wa.gov"
+   ]
+  },
+  {
+   "name": "Joe McDermott",
+   "address": [
+    {
+     "line1": "516 Third Ave.,",
+     "city": "Seattle",
+     "state": "WA",
+     "zip": "98104"
+    }
+   ],
+   "party": "Unknown",
+   "phones": [
+    "(206) 477-1008"
+   ],
+   "urls": [
+    "http://www.kingcounty.gov/McDermott.aspx"
+   ],
+   "photoUrl": "http://www.kingcounty.gov/~/media/McDermott/images/2015/McDermott.ashx?la=en",
+   "emails": [
+    "joe.mcdermott@kingcounty.gov"
+   ],
+   "channels": [
+    {
+     "type": "Facebook",
+     "id": "JoeMcDermott8"
+    }
+   ]
+  },
+  {
+   "name": "John Urquhart",
+   "address": [
+    {
+     "line1": "516 Third Ave Room W-150",
+     "city": "Seattle",
+     "state": "WA",
+     "zip": "98104"
+    }
+   ],
+   "party": "Unknown",
+   "phones": [
+    "(206) 296-4155"
+   ],
+   "urls": [
+    "http://www.kingcounty.gov/safety/sheriff.aspx"
+   ],
+   "emails": [
+    "sheriff@kingcounty.gov"
+   ],
+   "channels": [
+    {
+     "type": "Facebook",
+     "id": "KingCountySheriff"
+    }
+   ]
+  },
+  {
+   "name": "John Wilson",
+   "address": [
+    {
+     "line1": "500 Fourth Ave.",
+     "line2": "#ADM-AS-0708",
+     "city": "Seattle",
+     "state": "WA",
+     "zip": "98104"
+    }
+   ],
+   "party": "Unknown",
+   "phones": [
+    "(206) 296-7300"
+   ],
+   "urls": [
+    "http://www.kingcounty.gov/Assessor.aspx"
+   ]
+  },
+  {
+   "name": "Dow Constantine",
+   "address": [
+    {
+     "line1": "401 5th Ave.",
+     "city": "Seattle",
+     "state": "WA",
+     "zip": "98104"
+    }
+   ],
+   "party": "Unknown",
+   "phones": [
+    "(206) 296-4040"
+   ],
+   "urls": [
+    "http://www.kingcounty.gov/exec/constantine.aspx"
+   ],
+   "photoUrl": "http://www.kingcounty.gov/~/media/elected/portal/elected-exec-lg.ashx?la=en",
+   "emails": [
+    "kcexec@kingcounty.gov"
+   ],
+   "channels": [
+    {
+     "type": "Twitter",
+     "id": "kcnews"
+    },
+    {
+     "type": "Facebook",
+     "id": "ExecutiveConstantine"
+    }
+   ]
+  },
+  {
+   "name": "Julie Wise",
+   "address": [
+    {
+     "line1": "919 SW Grady Way",
+     "city": "Renton",
+     "state": "WA",
+     "zip": "98057"
+    }
+   ],
+   "party": "Unknown",
+   "phones": [
+    "(206) 296-1540"
+   ],
+   "urls": [
+    "http://www.kingcounty.gov/elections.aspx"
+   ],
+   "emails": [
+    "elections@kingcounty.gov"
+   ],
+   "channels": [
+    {
+     "type": "Facebook",
+     "id": "KingCountyElections"
+    },
+    {
+     "type": "Twitter",
+     "id": "kcelections"
+    }
+   ]
+  },
+  {
+   "name": "Dan Satterberg",
+   "address": [
+    {
+     "line1": "Room W554",
+     "line2": "516 Third Avenue",
+     "city": "Seattle",
+     "state": "WA",
+     "zip": "98104"
+    }
+   ],
+   "party": "Unknown",
+   "phones": [
+    "(206) 296-9000"
+   ],
+   "urls": [
+    "http://www.kingcounty.gov/Prosecutor.aspx"
+   ],
+   "channels": [
+    {
+     "type": "Twitter",
+     "id": "KCProsecutor"
+    }
+   ]
+  },
+  {
+   "name": "Ed Murray",
+   "address": [
+    {
+     "line1": "600 4th Ave,",
+     "city": "Seattle",
+     "state": "WA",
+     "zip": ""
+    }
+   ],
+   "party": "Democrat",
+   "phones": [
+    "(206) 684-4000"
+   ],
+   "urls": [
+    "http://www.seattle.gov/mayor/"
+   ],
+   "photoUrl": "http://www.seattle.gov/images/Mayor/FeatureContainers/about-ed.jpg",
+   "channels": [
+    {
+     "type": "Facebook",
+     "id": "559475790793234"
+    },
+    {
+     "type": "Twitter",
+     "id": "Mayor_Ed_Murray"
+    }
+   ]
+  },
+  {
+   "name": "Pete Holmes",
+   "address": [
+    {
+     "line1": "PO Box 94769",
+     "city": "Seattle",
+     "state": "WA",
+     "zip": "98124"
+    }
+   ],
+   "phones": [
+    "(206) 684-8200"
+   ],
+   "urls": [
+    "http://www.seattle.gov/law/"
+   ],
+   "channels": [
+    {
+     "type": "Facebook",
+     "id": "205227219570476"
+    }
+   ]
+  },
+  {
+   "name": "Tim Burgess",
+   "address": [
+    {
+     "line1": "PO Box 34025",
+     "city": "Seattle",
+     "state": "WA",
+     "zip": "98124"
+    }
+   ],
+   "phones": [
+    "(206) 684-8806"
+   ],
+   "urls": [
+    "http://www.seattle.gov/council/meet-the-council/tim-burgess"
+   ],
+   "photoUrl": "http://www.seattle.gov/Images/Council/Members/Burgess/burgess_thumb.jpg",
+   "emails": [
+    "tim.burgess@seattle.gov"
+   ],
+   "channels": [
+    {
+     "type": "Facebook",
+     "id": "CouncilmemberTimBurgess"
+    },
+    {
+     "type": "Twitter",
+     "id": "councilmantim"
+    }
+   ]
+  },
+  {
+   "name": "Lorena Gonzalez",
+   "address": [
+    {
+     "line1": "PO Box 34025",
+     "city": "Seattle",
+     "state": "WA",
+     "zip": "98124"
+    }
+   ],
+   "phones": [
+    "(206) 684-8802"
+   ],
+   "urls": [
+    "http://www.seattle.gov/council/meet-the-council/lorena-gonz%C3%A1lez"
+   ],
+   "photoUrl": "http://www.seattle.gov/Images/Council/Members/Gonzalez/gonzalez_thumb.jpg",
+   "emails": [
+    "Lorena.Gonzalez@seattle.gov"
+   ],
+   "channels": [
+    {
+     "type": "Facebook",
+     "id": "cmlorenagonzalez"
+    },
+    {
+     "type": "Twitter",
+     "id": "CMLGonzalez"
+    }
+   ]
+  },
+  {
+   "name": "Pat (Patrice) McCarthy",
+   "address": [
+    {
+     "line1": "Insurance Building Capitol Campus",
+     "line2": "302 Sid Snyder Avenue SW",
+     "city": "Olympia",
+     "state": "WA",
+     "zip": "98504"
+    }
+   ],
+   "party": "Democratic",
+   "phones": [
+    "(360) 902-0370"
+   ]
+  },
+  {
+   "name": "Duane Davidson",
+   "address": [
+    {
+     "line1": "PO Box 40200",
+     "city": "Olympia",
+     "state": "WA",
+     "zip": "98504"
+    }
+   ],
+   "party": "Republican",
+   "phones": [
+    "(360) 902-9001"
+   ]
+  },
+  {
+   "name": "Bob Ferguson",
+   "address": [
+    {
+     "line1": "PO Box 40100",
+     "city": "Olympia",
+     "state": "WA",
+     "zip": "98504"
+    }
+   ],
+   "party": "Democratic",
+   "phones": [
+    "(360) 753-6200"
+   ],
+   "urls": [
+    "http://www.atg.wa.gov/"
+   ],
+   "channels": [
+    {
+     "type": "Facebook",
+     "id": "WAStateAttorneyGeneral"
+    },
+    {
+     "type": "Twitter",
+     "id": "AGOWA"
+    }
+   ]
+  },
+  {
+   "name": "Kim Wyman",
+   "address": [
+    {
+     "line1": "PO Box 40220",
+     "city": "Olympia",
+     "state": "WA",
+     "zip": "98504"
+    }
+   ],
+   "party": "Republican",
+   "phones": [
+    "(360) 902-4151"
+   ],
+   "urls": [
+    "http://www.sos.wa.gov/"
+   ],
+   "emails": [
+    "kim.wyman@sos.wa.gov"
+   ],
+   "channels": [
+    {
+     "type": "Facebook",
+     "id": "WaSecretaryOfState"
+    },
+    {
+     "type": "Twitter",
+     "id": "secstatewa"
+    }
+   ]
+  },
+  {
+   "name": "Mike Kreidler",
+   "party": "Democratic",
+   "phones": [
+    "(360) 725-7000"
+   ],
+   "urls": [
+    "http://www.insurance.wa.gov/"
+   ],
+   "channels": [
+    {
+     "type": "Facebook",
+     "id": "wsoic"
+    },
+    {
+     "type": "Twitter",
+     "id": "WAinsuranceblog"
+    }
+   ]
+  },
+  {
+   "name": "Hilary Franz",
+   "address": [
+    {
+     "line1": "PO Box 47000",
+     "city": "Olympia",
+     "state": "WA",
+     "zip": "98504"
+    }
+   ],
+   "party": "Democratic",
+   "phones": [
+    "(360) 902-1000"
+   ]
+  },
+  {
+   "name": "Chris Reykdal",
+   "address": [
+    {
+     "line1": "Mail stop: 47200 Old Capitol Building P.O. Box 47200",
+     "city": "Olympia",
+     "state": "WA",
+     "zip": "98504"
+    }
+   ],
+   "party": "Nonpartisan",
+   "phones": [
+    "(360) 725-6115"
+   ]
+  }
+ ]
+}

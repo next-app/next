@@ -1,0 +1,7 @@
+>extend base
+
++page-title = learn more
+
++body =
+    @main
+        coming soon! (learn more)

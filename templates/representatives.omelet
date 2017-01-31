@@ -1,0 +1,24 @@
+>extend base
+
++page-title = my representatives
+
++body =
+    @main
+        @p
+            Based on your address, these are the officials
+            who represent you at each level of government.
+            The officials are grouped first by the division
+            of government they fall under, then by their
+            office within that division.
+
+        @div.filter-controls#reps-filters
+            @span filter representatives:
+            @label[for="filter-federal"]
+                @input#filter-federal[type="radio" name="filter" value="federal" checked]
+                only federal
+            @label[for="filter-all"]
+                @input#filter-all[type="radio" name="filter" value="all"]
+                show all
+
+        @div#repsView
+            loading...
