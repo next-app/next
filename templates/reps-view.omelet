@@ -32,7 +32,7 @@
         @section.division.expander
             @button.expander-header
                 @div.expander-header-left
-                    @div.expander-icon.default-state &#9654;
+                    @div.expander-icon.default-state|span.fa.fa-plus-square-o
                 @div.expander-header-right
                     @span.expander-type division - {division.type}
                     @h1 {division.name}
@@ -41,7 +41,7 @@
                     @section.office.expander
                         @button.expander-header
                             @div.expander-header-left
-                                @div.expander-icon.default-state &#9654;
+                                @div.expander-icon.default-state|span.fa.fa-plus-square-o
                             @div.expander-header-right
                                 @h2 {office.name}
                         @div.expander-content.collapsed

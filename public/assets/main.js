@@ -350,19 +350,19 @@ function toggleNav() {
 
 function toggleExpanded() {
     var expander = this.parentNode;
-    var icon = this.querySelector('.expander-icon');
+    var icon = this.querySelector('.expander-icon > span');
     var content = expander.querySelector('.expander-content');
     if (content.classList.contains("collapsed")) {
         // Expanding
         content.classList.remove("collapsed");
         content.classList.add("expanded");
-        icon.classList.remove("default");
-        icon.classList.add("rotated");
+        icon.classList.remove("fa-plus-square-o");
+        icon.classList.add("fa-minus-square-o");
     } else {
         // Collapsing
         content.classList.remove("expanded");
         content.classList.add("collapsed");
-        icon.classList.remove("rotated");
-        icon.classList.add("default");
+        icon.classList.remove("fa-minus-square-o");
+        icon.classList.add("fa-plus-square-o");
     }
 }
